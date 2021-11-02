@@ -1,0 +1,33 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi","Hey","Hola", "Hello", "Good day"],
+         "responses": ["Hello, I am bot. I will serve your enquiries."],
+         "context": [""]
+        },
+        {"tag": "opening",
+         "patterns": ["How are you today?","How are you?"],
+         "responses": ["I'm fine! Thank you. How can I help you?"],
+         "context": [""]
+        },
+        {"tag": "help",
+         "patterns": ["want help","need help","help me"],
+         "responses": ["How can I help you?"],
+         "context": [""]
+        },
+        {"tag": "accident_type",
+         "patterns": ["How many types of accidents are there?"],
+         "responses": ["Currently I know about two: Accident_level and Potential_accident_level."],
+         "context": [""]
+        },
+        {"tag": "accident_levels",
+         "patterns": ["How many accidents levels are there?"],
+         "responses": ["we have around 5 Accident_levels.where Level-1 is minor and Level-5 is major"],
+         "context": [""]
+        },
+        {"tag": "thanks",
+         "patterns": ["Thanks","Thank you"],
+         "responses": ["It's glad to know that I have been helpful. Have a good day!"],
+         "context": [""]
+        }
+   ]
+}
